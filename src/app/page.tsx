@@ -209,11 +209,10 @@ export default function Home() {
                     boxShadow: "0 8px 30px rgba(22, 76, 255, 0.35)",
                     transform: "translateY(-2px)"
                   }}
+                  as="a"
+                  href="/offer-upload"
                 >
                   Take Your Salary to the Moon 🚀
-                </RocketButton>
-                <RocketButton variant="secondary" size="lg" leftIcon={<Target />}>
-                  View Mission Plan
                 </RocketButton>
               </HStack>
             </motion.div>

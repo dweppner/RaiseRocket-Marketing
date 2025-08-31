@@ -51,3 +51,37 @@ export interface AIRecommendation {
   tactics: string[];
   createdAt: Date;
 }
+
+export interface OfferUploadData {
+  // Primary Fuel Supply (Base Salary)
+  baseSalary: number;
+  // Bonus Fuel Reserves (Annual Bonus)
+  annualBonus?: number;
+  bonusType?: 'percentage' | 'amount';
+  // Mission Shares (Stock/Equity)
+  equity?: number;
+  equityType?: 'shares' | 'dollar_value';
+  // Life Support Systems (Benefits)
+  benefits: string[];
+  // Launch Window (Start Date)
+  startDate: Date;
+  // Mission Assignment (Job Title)
+  jobTitle: string;
+  // Fleet Command (Company)
+  company: string;
+  // Mission Coordinates (Location)
+  location: string;
+  // Additional mission parameters
+  workType?: 'remote' | 'hybrid' | 'onsite';
+  reportingManager?: string;
+  department?: string;
+  notes?: string;
+}
+
+export interface FileUploadState {
+  file: File | null;
+  uploading: boolean;
+  uploaded: boolean;
+  error: string | null;
+  progress: number;
+}

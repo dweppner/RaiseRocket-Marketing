@@ -25,6 +25,7 @@ const navItems = [
   { name: 'Launch', href: '#launch' },
   { name: 'Mission Control', href: '#features' },
   { name: 'Trajectory', href: '#pricing' },
+  { name: 'Offer Upload', href: '/offer-upload' },
   { name: 'Contact Base', href: '#contact' }
 ];
 
@@ -102,6 +103,8 @@ export const Navigation = () => {
                 variant="secondary"
                 size="sm"
                 display={{ base: 'none', md: 'flex' }}
+                as="a"
+                href="/offer-upload"
               >
                 Begin Mission
               </RocketButton>
@@ -150,7 +153,13 @@ export const Navigation = () => {
                   </Link>
                 </motion.div>
               ))}
-              <RocketButton variant="primary" width="full" mt={4}>
+              <RocketButton 
+                variant="primary" 
+                width="full" 
+                mt={4}
+                as="a"
+                href="/offer-upload"
+              >
                 Begin Mission
               </RocketButton>
             </VStack>
