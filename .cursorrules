@@ -1,0 +1,68 @@
+# Cursor Rules for RaiseRocket Marketing Website
+
+## 🎯 **Project Context**
+- This is a marketing website for RaiseRocket AI salary negotiation tool
+- Space/rocket theme with futuristic, bold design
+- Mobile-first responsive design
+- Dark mode friendly with space-themed gradients
+
+## 🎨 **Design System**
+- **Brand Colors**: #164CFF (blue), #FFA500 (orange), #7ED957 (green)
+- **Theme**: Space-oriented with rocket, orbit, lunar imagery
+- **Typography**: Clean sans-serif with tech feel
+- **Gradients**: Blue/orange accent glows and space-themed effects
+
+## 🏗️ **Architecture Guidelines**
+- Use Next.js 15 App Router (src/app/ directory)
+- Implement server-side rendering where possible
+- Use React Server Components for static content
+- Client Components only when interactivity is needed
+- Follow atomic design principles for components
+
+## 📱 **Component Development**
+- **Mobile-First**: Design for mobile, enhance for desktop
+- **Chakra UI**: Primary component library with custom theme
+- **Responsive**: Use responsive breakpoints consistently
+- **Accessibility**: WCAG 2.1 AA compliance
+- **Dark Mode**: Ensure all components work in both themes
+
+## 🚀 **Marketing Features**
+- **Hero Section**: "Take Your Salary to the Moon 🚀"
+- **Waitlist Form**: Email signup with validation
+- **Three-Column Layout**: How It Works section
+- **Pricing Tiers**: Orbital (basic) and Lunar ($99/year)
+- **Testimonials**: Social proof section
+- **FAQ**: Common questions about the service
+
+## 🎭 **UI/UX Standards**
+- **Space Illustrations**: Rocket orbit, checklist, handshake icons
+- **Gradient Effects**: Blue/orange accent glows
+- **Animations**: Smooth transitions with Framer Motion
+- **Loading States**: Skeleton screens and spinners
+- **Error Handling**: User-friendly error messages
+
+## 🔧 **Code Quality**
+- Use TypeScript strictly with proper typing
+- Write self-documenting code with clear naming
+- Implement proper error boundaries
+- Add JSDoc comments for complex functions
+- Follow ESLint and Prettier configurations
+
+## 📊 **Performance Goals**
+- Lighthouse score > 90
+- Core Web Vitals optimization
+- Image optimization with Next.js Image
+- Bundle size optimization
+- Proper caching strategies
+
+## 🌐 **Browser Support**
+- Chrome 90+, Firefox 88+, Safari 14+, Edge 90+
+- Mobile browsers: iOS Safari, Chrome Mobile
+- Progressive enhancement approach
+
+## 🎯 **User Experience Goals**
+- Intuitive navigation and clear CTAs
+- Fast loading times (< 3 seconds)
+- Smooth animations and transitions
+- Clear value proposition
+- Easy waitlist signup process
