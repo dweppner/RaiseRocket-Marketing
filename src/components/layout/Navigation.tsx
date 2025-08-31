@@ -26,6 +26,7 @@ const navItems = [
   { name: 'Mission Control', href: '#features' },
   { name: 'Trajectory', href: '#pricing' },
   { name: 'Offer Upload', href: '/offer-upload' },
+  { name: 'Assessment', href: '/offer-assessment' },
   { name: 'Contact Base', href: '#contact' }
 ];
 

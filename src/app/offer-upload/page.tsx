@@ -26,8 +26,9 @@ export default function OfferUploadPage() {
       : { fileName: uploadedFile?.name, method: 'upload' };
       
     localStorage.setItem('missionParameters', JSON.stringify(finalData));
-    alert('Mission Parameters Saved! Check console for details.');
-    console.log('Form submitted:', finalData);
+    
+    // Redirect to assessment page
+    window.location.href = '/offer-assessment';
   };
 
   const handleSave = () => {
